@@ -1627,46 +1627,6 @@
                                  </xsd:annotation>
                               </xsd:element>
                            </xsd:choice>
-                           <xsd:element name="EusTcompRowLabel" minOccurs="0">
-                              <xsd:annotation>
-                                 <xsd:documentation source="FieldText">TOTAL COMPLIANCE</xsd:documentation>
-                                 <xsd:appinfo source="CBECCresXML">
-                                    <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
-                                 </xsd:appinfo>
-                              </xsd:annotation>
-                           </xsd:element>
-                           <xsd:element name="EusTcomp01_EnergyUseStandardSource" type="comp:EnergyUseStandardSource">
-                              <xsd:annotation>
-                                 <xsd:documentation source="FieldText"/>
-                                 <xsd:appinfo source="CBECCresXML">
-                                    <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
-                                 </xsd:appinfo>
-                              </xsd:annotation>
-                           </xsd:element>
-                           <xsd:element name="EusTcomp02_EnergyUseStandardDesign" type="comp:EnergyUseStandardDesign">
-                              <xsd:annotation>
-                                 <xsd:documentation source="FieldText"/>
-                                 <xsd:appinfo source="CBECCresXML">
-                                    <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
-                                 </xsd:appinfo>
-                              </xsd:annotation>
-                           </xsd:element>
-                           <xsd:element name="EusTcomp03_EnergyUseProposedSource" type="comp:EnergyUseProposedSource">
-                              <xsd:annotation>
-                                 <xsd:documentation source="FieldText"/>
-                                 <xsd:appinfo source="CBECCresXML">
-                                    <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
-                                 </xsd:appinfo>
-                              </xsd:annotation>
-                           </xsd:element>
-                           <xsd:element name="EusTcomp04_EnergyUseProposedDesign" type="comp:EnergyUseProposedDesign">
-                              <xsd:annotation>
-                                 <xsd:documentation source="FieldText"/>
-                                 <xsd:appinfo source="CBECCresXML">
-                                    <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
-                                 </xsd:appinfo>
-                              </xsd:annotation>
-                           </xsd:element>
                            <xsd:element name="EusFlexRowLabel" minOccurs="0">
                               <xsd:annotation>
                                  <xsd:documentation source="FieldText">Flexibility</xsd:documentation>
@@ -1892,7 +1852,7 @@
                            <xsd:element name="EusTotalsRowLabel" minOccurs="0">
                               <xsd:annotation>
                                  <xsd:documentation source="FieldText">
-                                    <d:b>TOTAL COMPLIANCE PLUS MISC. COMPONENTS </d:b>
+                                    <d:b>TOTAL COMPLIANCE </d:b>
                                  </xsd:documentation>
                                  <xsd:appinfo source="CBECCresXML">
                                     <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
