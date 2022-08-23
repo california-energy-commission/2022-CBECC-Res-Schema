@@ -784,6 +784,14 @@
                                  </xsd:appinfo>
                               </xsd:annotation>
                            </xsd:element>
+                           <xsd:element name="EdrResultNotes_EDR_ComplianceNotes" type="comp:EDR_ComplianceNotes"  minOccurs="0" maxOccurs="unbounded">
+                              <xsd:annotation>
+                                 <xsd:documentation source="FieldText"></xsd:documentation>
+                                 <xsd:appinfo source="CBECCresXML">
+                                    <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+                                 </xsd:appinfo>
+                              </xsd:annotation>
+                           </xsd:element>
                            <xsd:element name="EdrFootnote1" minOccurs="0">
                               <xsd:annotation>
                                  <xsd:documentation source="FieldText"></xsd:documentation>
@@ -806,14 +814,6 @@
                               <xsd:annotation>
                                  <xsd:documentation source="FieldText"></xsd:documentation>
                                  <xsd:documentation source="AdditionalRequirements">[d:sup]3[/d:sup]Building complies when source energy, efficiency and total compliance margins are greater than or equal to zero and unmet load hour limits are not exceeded</xsd:documentation>
-                                 <xsd:appinfo source="CBECCresXML">
-                                    <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
-                                 </xsd:appinfo>
-                              </xsd:annotation>
-                           </xsd:element>
-                           <xsd:element name="EdrResultNotes_EDR_ComplianceNotes" type="comp:EDR_ComplianceNotes"  minOccurs="0" maxOccurs="unbounded">
-                              <xsd:annotation>
-                                 <xsd:documentation source="FieldText"></xsd:documentation>
                                  <xsd:appinfo source="CBECCresXML">
                                     <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
                                  </xsd:appinfo>
@@ -969,6 +969,14 @@
                                  </xsd:appinfo>
                               </xsd:annotation>
                            </xsd:element>
+                           <xsd:element name="EdrResultNotes_EDR_ComplianceNotes" type="comp:EDR_ComplianceNotes"  minOccurs="0" maxOccurs="unbounded">
+                              <xsd:annotation>
+                                 <xsd:documentation source="FieldText"></xsd:documentation>
+                                 <xsd:appinfo source="CBECCresXML">
+                                    <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+                                 </xsd:appinfo>
+                              </xsd:annotation>
+                           </xsd:element>
                            <xsd:element name="EdrFootnote1" minOccurs="0">
                               <xsd:annotation>
                                  <xsd:documentation source="FieldText"></xsd:documentation>
@@ -991,14 +999,6 @@
                               <xsd:annotation>
                                  <xsd:documentation source="FieldText"></xsd:documentation>
                                  <xsd:documentation source="AdditionalRequirements">[d:sup]3[/d:sup]Building complies when source energy, efficiency and total compliance margins are greater than or equal to zero and unmet load hour limits are not exceeded</xsd:documentation>
-                                 <xsd:appinfo source="CBECCresXML">
-                                    <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
-                                 </xsd:appinfo>
-                              </xsd:annotation>
-                           </xsd:element>
-                           <xsd:element name="EdrResultNotes_EDR_ComplianceNotes" type="comp:EDR_ComplianceNotes"  minOccurs="0" maxOccurs="unbounded">
-                              <xsd:annotation>
-                                 <xsd:documentation source="FieldText"></xsd:documentation>
                                  <xsd:appinfo source="CBECCresXML">
                                     <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
                                  </xsd:appinfo>
@@ -5780,7 +5780,7 @@
                                              </xsd:appinfo>
                                           </xsd:annotation>
                                        </xsd:element>
-                                       <xsd:element name="S06_NotApplicableMessage" type="comp:NotApplicableMessage" >
+                                       <xsd:element name="S06x_NotApplicableMessage" type="comp:NotApplicableMessage" >
                                           <xsd:annotation>
                                              <xsd:documentation source="FieldText">NOT REPORTED IN PDF</xsd:documentation>
                                              <xsd:appinfo source="CBECCresXML">
