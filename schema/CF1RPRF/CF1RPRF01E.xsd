@@ -399,6 +399,14 @@
                         </xsd:appinfo>
                      </xsd:annotation>
                   </xsd:element>
+                  <xsd:element name="A30_NaturalGasOnSite" type="com:NaturalGasOnSite" >
+                     <xsd:annotation>
+                        <xsd:documentation source="FieldText">NOT REPORTED IN PDF</xsd:documentation>
+                        <xsd:appinfo source="CBECCresXML">
+                           <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+                        </xsd:appinfo>
+                     </xsd:annotation>
+                  </xsd:element>
                   <xsd:sequence minOccurs="0" maxOccurs="unbounded">
                      <xsd:annotation>
                         <xsd:documentation source="FieldText">User Defined Fields</xsd:documentation>
