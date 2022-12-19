@@ -13447,6 +13447,7 @@ Builders, Manufacturers, And Suppliers</xsd:documentation>
             <dtyp:displayterm value="CommunitySolar">CommunitySolar</dtyp:displayterm>
             <dtyp:displayterm value="DeclaredEmergencyArea">Declared emergency area before 1/1/20</dtyp:displayterm>
             <dtyp:displayterm value="LimitedSolarAccess">No PV - SARA less than 80 contiguous sq ft (Trigger CF2R-SRA-01)</dtyp:displayterm>
+            <dtyp:displayterm value="LimitedSolarAccessAbove80">PV size limited by Solar Access Roof Area (SARA)</dtyp:displayterm>
             <dtyp:displayterm value="LT1_8kWdcRequired">No PV - required PV less than 1.8kWdc</dtyp:displayterm>
             <dtyp:displayterm value="NoExceptionsNA">NA</dtyp:displayterm>
             <dtyp:displayterm value="PlansBefore2020">Plan approved before 1/1/20</dtyp:displayterm>
@@ -13459,6 +13460,7 @@ Builders, Manufacturers, And Suppliers</xsd:documentation>
          <xsd:enumeration value="CommunitySolar"/>
          <xsd:enumeration value="DeclaredEmergencyArea"/>
          <xsd:enumeration value="LimitedSolarAccess"/>
+         <xsd:enumeration value="LimitedSolarAccessAbove80"/>
          <xsd:enumeration value="LT1_8kWdcRequired"/>
          <xsd:enumeration value="NoExceptionsNA"/>
          <xsd:enumeration value="PlansBefore2020"/>
@@ -16610,6 +16612,8 @@ the inside surface of gable ends or other exterior vertical surfaces in attics t
             <dtyp:displayterm value="PVException3HabitableStories">PV Exception: 3 Habitable Stories</dtyp:displayterm>
             <dtyp:displayterm value="PVExceptionAB178EmergencyArea">Declared emergency area (prior to 1/1/20)</dtyp:displayterm>
             <dtyp:displayterm value="PVExceptionEffectSolarAccess">PV Exception: Effective Solar Access</dtyp:displayterm>
+            <dtyp:displayterm value="PVExceptionEffectSolarAccessAbove80">Reduced PV - PV size limited by Solar Access Roof Area (SARA)</dtyp:displayterm>
+            <dtyp:displayterm value="PVExceptionPlanningDeptApproved">PV Exception: Approved by planning dept. (prior to 1/1/20)</dtyp:displayterm>
             <dtyp:displayterm value="PVExceptionPriorSolarReadyZone">PV Exception: Prior Solar Ready Zone</dtyp:displayterm>
             <dtyp:displayterm value="PVExceptionSection10_109k">PV Exception: Section 10-109(k) determination</dtyp:displayterm>
             <dtyp:displayterm value="PVExceptionSnowLoad">PV Exception: Excessive snow load</dtyp:displayterm>
@@ -16686,6 +16690,8 @@ the inside surface of gable ends or other exterior vertical surfaces in attics t
          <xsd:enumeration value="PVException3HabitableStories"/>
          <xsd:enumeration value="PVExceptionAB178EmergencyArea"/>
          <xsd:enumeration value="PVExceptionEffectSolarAccess"/>
+         <xsd:enumeration value="PVExceptionEffectSolarAccessAbove80"/>
+         <xsd:enumeration value="PVExceptionPlanningDeptApproved"/>
          <xsd:enumeration value="PVExceptionPriorSolarReadyZone"/>
          <xsd:enumeration value="PVExceptionSection10_109k"/>
          <xsd:enumeration value="PVExceptionSnowLoad"/>
