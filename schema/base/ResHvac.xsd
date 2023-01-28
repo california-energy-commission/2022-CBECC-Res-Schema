@@ -3576,6 +3576,7 @@
             <dtyp:displayterm value="BtuHrHp">Btu/Hr/Hp</dtyp:displayterm>
             <dtyp:displayterm value="CapWeightedAvg">Capacity Weighted Average Efficiency</dtyp:displayterm>
             <dtyp:displayterm value="CEER">CEER</dtyp:displayterm>
+            <dtyp:displayterm value="ComProduct">Commercial Product</dtyp:displayterm>
             <dtyp:displayterm value="CombustionEfficiency">Combustion Efficiency</dtyp:displayterm>
             <dtyp:displayterm value="COP">COP</dtyp:displayterm>
             <dtyp:displayterm value="COP_IPLV">IPLV</dtyp:displayterm>
@@ -3607,6 +3608,7 @@
          <xsd:enumeration value="BtuHrHp"/>
          <xsd:enumeration value="CapWeightedAvg"/>
          <xsd:enumeration value="CEER"/>
+         <xsd:enumeration value="ComProduct"/>
          <xsd:enumeration value="CombustionEfficiency"/>
          <xsd:enumeration value="COP"/>
          <xsd:enumeration value="COP_IPLV"/>
