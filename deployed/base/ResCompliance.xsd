@@ -1278,6 +1278,12 @@
          <xsd:enumeration value="ReqYes"/>
       </xsd:restriction>
    </xsd:simpleType>
+   <xsd:simpleType name="Build">
+      <xsd:annotation>
+         <xsd:documentation>This is the software build number</xsd:documentation>
+      </xsd:annotation>
+      <xsd:restriction base="dtyp:Integer"/>
+   </xsd:simpleType>
    <xsd:simpleType name="BuildingAirLeakageTestMethod">
       <xsd:annotation>
          <xsd:appinfo source="displayterm">
@@ -18315,6 +18321,12 @@ Time Dependent Valuation (TDV) Gas Propane energy is calculated by multiplying t
          </xsd:appinfo>
       </xsd:annotation>
       <xsd:restriction base="xsd:boolean"/>
+   </xsd:simpleType>
+   <xsd:simpleType name="Vendor">
+      <xsd:annotation>
+         <xsd:documentation>This is the software vendor</xsd:documentation>
+      </xsd:annotation>
+      <xsd:restriction base="xsd:string"/>
    </xsd:simpleType>
    <xsd:simpleType name="VentilationCoolingCreditVerificationRequired">
       <xsd:annotation>

@@ -10405,6 +10405,7 @@
             <dtyp:displayterm value="GasSpaceHeater">Gas space heater</dtyp:displayterm>
             <dtyp:displayterm value="GasWallFurnace">Gas wall furnace</dtyp:displayterm>
             <dtyp:displayterm value="GroundSourceHeatPump">Ground source heat pump</dtyp:displayterm>
+            <dtyp:displayterm value="HeatPumpDHWCombo">Heat Pump DHW Combo</dtyp:displayterm>
             <dtyp:displayterm value="Hydronic">Hydronic</dtyp:displayterm>
             <dtyp:displayterm value="HydronicForcedAir">Hydronic + forced air</dtyp:displayterm>
             <dtyp:displayterm value="HydronicHP">Hydronic HP</dtyp:displayterm>
@@ -10444,6 +10445,7 @@
             <dtyp:CBECCresXMLterm value="GasSpaceHeater">gas space heater</dtyp:CBECCresXMLterm>
             <dtyp:CBECCresXMLterm value="GasWallFurnace">gas wall furnace</dtyp:CBECCresXMLterm>
             <dtyp:CBECCresXMLterm value="GroundSourceHeatPump">GroundSourceHeatPump - Ground source heat pump (able to heat DHW)</dtyp:CBECCresXMLterm>
+            <dtyp:CBECCresXMLterm value="HeatPumpDHWCombo">Heat Pump DHW Combo</dtyp:CBECCresXMLterm>
             <dtyp:CBECCresXMLterm value="Hydronic">hydronic</dtyp:CBECCresXMLterm>
             <dtyp:CBECCresXMLterm value="HydronicForcedAir">hydronic+forced air</dtyp:CBECCresXMLterm>
             <dtyp:CBECCresXMLterm value="HydronicHP">hydronic HP</dtyp:CBECCresXMLterm>
@@ -10484,6 +10486,7 @@
          <xsd:enumeration value="GasSpaceHeater"/>
          <xsd:enumeration value="GasWallFurnace"/>
          <xsd:enumeration value="GroundSourceHeatPump"/>
+         <xsd:enumeration value="HeatPumpDHWCombo"/>
          <xsd:enumeration value="Hydronic"/>
          <xsd:enumeration value="HydronicForcedAir"/>
          <xsd:enumeration value="HydronicHP"/>

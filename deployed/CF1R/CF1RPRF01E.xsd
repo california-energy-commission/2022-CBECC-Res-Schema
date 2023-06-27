@@ -86,6 +86,16 @@
                         </xsd:appinfo>
                      </xsd:annotation>
                   </xsd:element>
+                  <xsd:element name="A07a_Vendor" type="comp:Vendor" minOccurs="0">
+                     <xsd:annotation>
+                        <xsd:documentation source="FieldText">NOT REPORTED IN PDF</xsd:documentation>
+                     </xsd:annotation>
+                  </xsd:element>
+                  <xsd:element name="A07c_Build" type="comp:Build" minOccurs="0">
+                     <xsd:annotation>
+                        <xsd:documentation source="FieldText">NOT REPORTED IN PDF</xsd:documentation>
+                     </xsd:annotation>
+                  </xsd:element>
                   <xsd:element name="A08_ClimateZone" type="com:ClimateZone">
                      <xsd:annotation>
                         <xsd:documentation source="FieldText">Climate Zone</xsd:documentation>
@@ -7984,14 +7994,24 @@
                                           </xsd:annotation>
                                        </xsd:element>
                                     </xsd:choice>
-                                    <xsd:element name="Y05_HeatPumpHeatCapacity47F" type="comp:HeatPumpHeatCapacity47F" minOccurs="0">
-                                       <xsd:annotation>
-                                          <xsd:documentation source="FieldText">Cap 47</xsd:documentation>
-                                          <xsd:appinfo source="CBECCresXML">
-                                             <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
-                                          </xsd:appinfo>
-                                       </xsd:annotation>
-                                    </xsd:element>
+                                    <xsd:choice maxOccurs="1">
+                                       <xsd:element name="Y05_HeatPumpHeatCapacity47F" type="comp:HeatPumpHeatCapacity47F" minOccurs="0">
+                                          <xsd:annotation>
+                                             <xsd:documentation source="FieldText">Cap 47</xsd:documentation>
+                                             <xsd:appinfo source="CBECCresXML">
+                                                <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+                                             </xsd:appinfo>
+                                          </xsd:annotation>
+                                       </xsd:element>
+                                       <xsd:element name="Y05_NotApplicableMessage" type="comp:NotApplicableMessage" minOccurs="0">
+                                          <xsd:annotation>
+                                             <xsd:documentation source="FieldText">Cap 47</xsd:documentation>
+                                             <xsd:appinfo source="CBECCresXML">
+                                                <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+                                             </xsd:appinfo>
+                                          </xsd:annotation>
+                                       </xsd:element>
+                                    </xsd:choice>
                                     <xsd:element name="Y05a_EfficiencyCOP" type="hvac:EfficiencyCOP" minOccurs="0">
                                        <xsd:annotation>
                                           <xsd:documentation source="FieldText">Efficiency COP at 47F</xsd:documentation>
