@@ -4821,6 +4821,19 @@
       <xsd:restriction base="dtyp:Decimal">
       </xsd:restriction>
    </xsd:simpleType>
+   <xsd:simpleType name="HeatingUnitBrand">
+      <xsd:annotation>
+         <xsd:appinfo source="displaytermType">
+            <dtyp:displayterm>Heating Unit Brand</dtyp:displayterm>
+         </xsd:appinfo>
+         <xsd:appinfo source="displayterm">
+            <dtyp:displayterm value="HarvestThermal">Harvest Thermal</dtyp:displayterm>
+         </xsd:appinfo>
+      </xsd:annotation>
+      <xsd:restriction base="dtyp:EnumerationConstant">
+         <xsd:enumeration value="HarvestThermal"/>
+      </xsd:restriction>
+   </xsd:simpleType>
    <xsd:simpleType name="HeatingUnitCount">
       <xsd:annotation>
          <xsd:documentation>  Units: none</xsd:documentation>

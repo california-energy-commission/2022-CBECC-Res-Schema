@@ -7614,7 +7614,7 @@
 															<xsd:enumeration value="AFUE"/>
 														</xsd:restriction>
 													</xsd:simpleType>
-												</xsd:element>
+												</xsd:element>												
 												<xsd:element name="W04a_EfficiencyType" minOccurs="0">
 													<xsd:annotation>
 														<xsd:documentation source="FieldText">Heating Efficiency</xsd:documentation>
@@ -7628,17 +7628,45 @@
 														</xsd:restriction>
 													</xsd:simpleType>
 												</xsd:element>
-												<xsd:element name="W04_EfficiencyAFUE" type="hvac:EfficiencyAFUE">
-													<xsd:annotation>
-														<xsd:documentation source="FieldText">Heating Efficiency</xsd:documentation>
-														<xsd:appinfo source="CBECCresXML">
-															<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
-														</xsd:appinfo>
-														<xsd:appinfo source="CBECCresXML">
-															<dtyp:CBECCresXMLterm>SCSysRpt:HeatEfficType</dtyp:CBECCresXMLterm>
-														</xsd:appinfo>
-													</xsd:annotation>
-												</xsd:element>
+												<xsd:choice maxOccurs="1">		
+													<xsd:element name="W04_EfficiencyAFUE" type="hvac:EfficiencyAFUE">
+														<xsd:annotation>
+															<xsd:documentation source="FieldText">Heating Efficiency</xsd:documentation>
+															<xsd:appinfo source="CBECCresXML">
+																<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+															</xsd:appinfo>
+															<xsd:appinfo source="CBECCresXML">
+																<dtyp:CBECCresXMLterm>SCSysRpt:HeatEfficType</dtyp:CBECCresXMLterm>
+															</xsd:appinfo>
+														</xsd:annotation>
+													</xsd:element>													
+													<xsd:element name="W04_NotApplicableMessage" type="comp:NotApplicableMessage">
+														<xsd:annotation>
+															<xsd:documentation source="FieldText">Heating Efficiency</xsd:documentation>
+															<xsd:appinfo source="CBECCresXML">
+																<dtyp:CBECCresXMLterm></dtyp:CBECCresXMLterm>
+															</xsd:appinfo>
+														</xsd:annotation>
+													</xsd:element>
+												</xsd:choice>
+												<xsd:choice maxOccurs="1">		
+													<xsd:element name="W05_HeatingUnitBrand" type="hvac:HeatingUnitBrand">
+														<xsd:annotation>
+															<xsd:documentation source="FieldText">Heating Unit Brand</xsd:documentation>
+															<xsd:appinfo source="CBECCresXML">
+																<dtyp:CBECCresXMLterm></dtyp:CBECCresXMLterm>
+															</xsd:appinfo>															
+														</xsd:annotation>
+													</xsd:element>													
+													<xsd:element name="W05_NotApplicableMessage" type="comp:NotApplicableMessage">
+														<xsd:annotation>
+															<xsd:documentation source="FieldText">Heating Unit Brand</xsd:documentation>
+															<xsd:appinfo source="CBECCresXML">
+																<dtyp:CBECCresXMLterm></dtyp:CBECCresXMLterm>
+															</xsd:appinfo>
+														</xsd:annotation>
+													</xsd:element>
+												</xsd:choice>
 												<xsd:sequence minOccurs="0" maxOccurs="unbounded">
 													<xsd:annotation>
 														<xsd:documentation source="FieldText">User Defined Fields</xsd:documentation>
@@ -7888,6 +7916,7 @@
 															<xsd:enumeration value="DuctlessMultiSplitHP"/>
 															<xsd:enumeration value="DuctlessVRF_HP"/>
 															<xsd:enumeration value="GroundSourceHeatPump"/>
+															<xsd:enumeration value="HeatPumpDHWCombo"/>
 															<xsd:enumeration value="PTHP"/>
 															<xsd:enumeration value="RoomHP"/>
 															<xsd:enumeration value="SmallDuctHighVelocityHP"/>
