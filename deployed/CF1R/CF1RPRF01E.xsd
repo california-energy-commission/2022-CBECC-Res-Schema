@@ -287,6 +287,14 @@
                         </xsd:appinfo>
                      </xsd:annotation>
                   </xsd:element>
+                  <xsd:element name="A23_OccupancyTypeU" type="com:OccupancyTypeU">
+                     <xsd:annotation>
+                        <xsd:documentation source="FieldText">Occupancy U:</xsd:documentation>
+                        <xsd:appinfo source="CBECCresXML">
+                           <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+                        </xsd:appinfo>
+                     </xsd:annotation>
+                  </xsd:element>
                   <xsd:element name="A23_AttachedGarage" type="env:AttachedGarage">
                      <xsd:annotation>
                         <xsd:documentation source="FieldText">NOT REPORTED IN PDF</xsd:documentation>
@@ -6305,29 +6313,20 @@
                                           </xsd:appinfo>
                                        </xsd:annotation>
                                     </xsd:element>
-                                    <xsd:choice maxOccurs="1">
-                                       <xsd:element name="Tneea06_TankLocation">
-                                          <xsd:annotation>
-                                             <xsd:documentation source="FieldText">Tank Location</xsd:documentation>
-                                             <xsd:appinfo source="CBECCresXML">
-                                                <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
-                                             </xsd:appinfo>
-                                          </xsd:annotation>
-                                          <xsd:simpleType>
-                                             <xsd:restriction base="hvac:TankLocation">
-                                                <xsd:enumeration value="Outside"/>
-                                             </xsd:restriction>
-                                          </xsd:simpleType>
-                                       </xsd:element>
-                                       <xsd:element name="Tneea06_TankLocationString" type="hvac:TankLocationString">
-                                          <xsd:annotation>
-                                             <xsd:documentation source="FieldText">Tank Location</xsd:documentation>
-                                             <xsd:appinfo source="CBECCresXML">
-                                                <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
-                                             </xsd:appinfo>
-                                          </xsd:annotation>
-                                       </xsd:element>
-                                    </xsd:choice>
+                                    <xsd:element name="Tneea06_TankLocation">
+                                       <xsd:annotation>
+                                          <xsd:documentation source="FieldText">Tank Location</xsd:documentation>
+                                          <xsd:appinfo source="CBECCresXML">
+                                             <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+                                          </xsd:appinfo>
+                                       </xsd:annotation>
+                                       <xsd:simpleType>
+                                          <xsd:restriction base="hvac:TankLocation">
+                                             <xsd:enumeration value="Outside"/>
+                                             <xsd:enumeration value="TankZone"/>
+                                          </xsd:restriction>
+                                       </xsd:simpleType>
+                                    </xsd:element>
                                     <xsd:choice maxOccurs="1">
                                        <xsd:element name="Tneea07_AirSource">
                                           <xsd:annotation>
@@ -7663,6 +7662,21 @@
                                              <xsd:appinfo source="CBECCresXML">
                                                 <dtyp:CBECCresXMLterm>SCSysRpt:HeatEfficType</dtyp:CBECCresXMLterm>
                                              </xsd:appinfo>
+                                          </xsd:annotation>
+                                       </xsd:element>
+                                       <xsd:element name="W04_EfficiencyCOP" type="hvac:EfficiencyCOP">
+                                          <xsd:annotation>
+                                             <xsd:documentation source="FieldText">Heating Efficiency</xsd:documentation>
+                                          </xsd:annotation>
+                                       </xsd:element>
+                                       <xsd:element name="W04_EfficiencyHSPF" type="hvac:EfficiencyHSPF">
+                                          <xsd:annotation>
+                                             <xsd:documentation source="FieldText">Heating Efficiency</xsd:documentation>
+                                          </xsd:annotation>
+                                       </xsd:element>
+                                       <xsd:element name="W04_EfficiencyHSPF2" type="hvac:EfficiencyHSPF2">
+                                          <xsd:annotation>
+                                             <xsd:documentation source="FieldText">Heating Efficiency</xsd:documentation>
                                           </xsd:annotation>
                                        </xsd:element>
                                        <xsd:element name="W04a_NotApplicableMessage" type="comp:NotApplicableMessage">
