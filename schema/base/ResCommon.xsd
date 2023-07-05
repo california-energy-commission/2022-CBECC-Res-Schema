@@ -1754,6 +1754,16 @@ ExtFlr/IntFlr: 0.8  Units: none</xsd:documentation>
       <xsd:restriction base="xsd:boolean">
       </xsd:restriction>
    </xsd:simpleType>
+   <xsd:simpleType name="OccupancyTypeU">
+      <xsd:annotation>
+         <xsd:appinfo source="displayterm">
+            <dtyp:displayterm value="true">Yes</dtyp:displayterm>
+            <dtyp:displayterm value="false">No</dtyp:displayterm>
+         </xsd:appinfo>
+      </xsd:annotation>
+      <xsd:restriction base="xsd:boolean">
+      </xsd:restriction>
+   </xsd:simpleType>
    <xsd:simpleType name="OccupantCount">
       <xsd:annotation>
          <xsd:documentation>The maximum number of people who can occupy a space  or building  Units: person</xsd:documentation>
