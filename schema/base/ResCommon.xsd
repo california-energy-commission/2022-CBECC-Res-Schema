@@ -1214,7 +1214,7 @@ ExtFlr/IntFlr: 0.8  Units: none</xsd:documentation>
       <xsd:annotation>
          <xsd:appinfo source="displayterm">
             <dtyp:displayterm value="NaturalGas">Natural gas</dtyp:displayterm>
-            <dtyp:displayterm value="None">None</dtyp:displayterm>
+            <dtyp:displayterm value="None">All electric</dtyp:displayterm>
             <dtyp:displayterm value="Propane">Propane</dtyp:displayterm>
          </xsd:appinfo>
       </xsd:annotation>
