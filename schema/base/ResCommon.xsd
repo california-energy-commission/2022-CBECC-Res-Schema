@@ -1609,7 +1609,7 @@ ExtFlr/IntFlr: 0.8  Units: none</xsd:documentation>
          <xsd:appinfo source="displayterm">
             <dtyp:displayterm value="ExistingAlteration">Existing Alteration</dtyp:displayterm>
             <dtyp:displayterm value="ExistingReinstalled">Exist. Reinstalled</dtyp:displayterm>
-            <dtyp:displayterm value="ExistingUnchanged">Existing Unchanged</dtyp:displayterm>
+            <dtyp:displayterm value="ExistingUnchanged">Existing</dtyp:displayterm>
             <dtyp:displayterm value="New">New</dtyp:displayterm>
          </xsd:appinfo>
       </xsd:annotation>

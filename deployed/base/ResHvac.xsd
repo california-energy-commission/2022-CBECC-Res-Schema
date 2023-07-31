@@ -6985,7 +6985,7 @@
          <xsd:documentation>Defines if equipment is new, existing or modified.  Existing equipment may be moved and reinstalled in the project.  If so, mandatory efficiency ratings may not apply.</xsd:documentation>
          <xsd:appinfo source="displayterm">
             <dtyp:displayterm value="Alteration">Alteration</dtyp:displayterm>
-            <dtyp:displayterm value="ExistingUnchanged">Existing Unchanged</dtyp:displayterm>
+            <dtyp:displayterm value="ExistingUnchanged">Existing</dtyp:displayterm>
             <dtyp:displayterm value="New">New</dtyp:displayterm>
             <dtyp:displayterm value="Removed">Removed</dtyp:displayterm>
             <dtyp:displayterm value="Replacement">Replacement</dtyp:displayterm>
@@ -12047,7 +12047,7 @@
          </xsd:appinfo>
          <xsd:appinfo source="displayterm">
             <dtyp:displayterm value="Alteration">Alteration</dtyp:displayterm>
-            <dtyp:displayterm value="ExistingUnchanged">Existing Unchanged</dtyp:displayterm>
+            <dtyp:displayterm value="ExistingUnchanged">Existing</dtyp:displayterm>
             <dtyp:displayterm value="New">New</dtyp:displayterm>
             <dtyp:displayterm value="NewOrAddition">New/ Addition</dtyp:displayterm>
          </xsd:appinfo>

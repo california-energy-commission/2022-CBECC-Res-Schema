@@ -3877,7 +3877,7 @@
                                     </xsd:element>
                                     <xsd:element name="G06_WaterHeatingSystemName" type="hvac:WaterHeatingSystemName">
                                        <xsd:annotation>
-                                          <xsd:documentation source="FieldText">Water Heating System</xsd:documentation>
+                                          <xsd:documentation source="FieldText">DHW System Name</xsd:documentation>
                                           <xsd:appinfo source="CBECCresXML">
                                              <dtyp:CBECCresXMLterm>Zone:DHWSys1</dtyp:CBECCresXMLterm>
                                              <dtyp:termConditions>XSLT includes logic: select="DHWSys1 | AltDHWSys1 | exDHWSys1"</dtyp:termConditions>
@@ -3886,7 +3886,7 @@
                                     </xsd:element>
                                     <xsd:element name="G07_Status">
                                        <xsd:annotation>
-                                          <xsd:documentation source="FieldText">Status</xsd:documentation>
+                                          <xsd:documentation source="FieldText">Zone Status</xsd:documentation>
                                           <xsd:documentation source="CalculationsAndRules">Required value if there is more than one water heating system in the zone, else value is N/A stored in NotApplicableMessage.</xsd:documentation>
                                           <xsd:appinfo source="CBECCresXML">
                                              <dtyp:CBECCresXMLterm>Zone:DHWSys2</dtyp:CBECCresXMLterm>
