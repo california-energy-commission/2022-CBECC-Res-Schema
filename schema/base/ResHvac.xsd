@@ -5052,10 +5052,13 @@
             <dtyp:displayterm value="AOSmithPHPT60">PHPT 60  (60 gal)</dtyp:displayterm>
             <dtyp:displayterm value="AOSmithPHPT80">PHPT 80  (80 gal)</dtyp:displayterm>
             <dtyp:displayterm value="BradfordWhiteRE2H50">RE2H50R10B-1NCWT  (50 gal)</dtyp:displayterm>
+            <dtyp:displayterm value="BradfordWhiteRE2H50S_Rheem2020Prem50">RE2H50S*-***** (50 gal)</dtyp:displayterm>
             <dtyp:displayterm value="BradfordWhiteRE2H50S61NCWT">RE2H50S6-1NCWT (50 gal)</dtyp:displayterm>
+            <dtyp:displayterm value="BradfordWhiteRE2H65T_Rheem2020Prem65">RE2H65T*-***** (65 gal)</dtyp:displayterm>
             <dtyp:displayterm value="BradfordWhiteRE2H65T101NCWT">RE2H65T10-1NCWT  (65 gal)</dtyp:displayterm>
             <dtyp:displayterm value="BradfordWhiteRE2H65T61NCWT">RE2H65T6-1NCWT (65 gal)</dtyp:displayterm>
             <dtyp:displayterm value="BradfordWhiteRE2H80">RE2H80R10B-1NCWT  (80 gal)</dtyp:displayterm>
+            <dtyp:displayterm value="BradfordWhiteRE2H80T_Rheem2020Prem80">RE2H80T*-***** (80 gal)</dtyp:displayterm>
             <dtyp:displayterm value="BradfordWhiteRE2H80T61NCWT">RE2H80T6-1NCWT (80 gal)</dtyp:displayterm>
             <dtyp:displayterm value="ColmacCxA10">Cx A10</dtyp:displayterm>
             <dtyp:displayterm value="ColmacCxA15">Cx A15</dtyp:displayterm>
@@ -5428,10 +5431,13 @@
          <xsd:enumeration value="AOSmithPHPT60"/>
          <xsd:enumeration value="AOSmithPHPT80"/>
          <xsd:enumeration value="BradfordWhiteRE2H50"/>
+         <xsd:enumeration value="BradfordWhiteRE2H50S_Rheem2020Prem50"/>
          <xsd:enumeration value="BradfordWhiteRE2H50S61NCWT"/>
+         <xsd:enumeration value="BradfordWhiteRE2H65T_Rheem2020Prem65"/>
          <xsd:enumeration value="BradfordWhiteRE2H65T101NCWT"/>
          <xsd:enumeration value="BradfordWhiteRE2H65T61NCWT"/>
          <xsd:enumeration value="BradfordWhiteRE2H80"/>
+         <xsd:enumeration value="BradfordWhiteRE2H80T_Rheem2020Prem80"/>
          <xsd:enumeration value="BradfordWhiteRE2H80T61NCWT"/>
          <xsd:enumeration value="ColmacCxA10"/>
          <xsd:enumeration value="ColmacCxA15"/>
@@ -7227,7 +7233,7 @@
          <xsd:documentation>Defines if equipment is new, existing or modified.  Existing equipment may be moved and reinstalled in the project.  If so, mandatory efficiency ratings may not apply.</xsd:documentation>
          <xsd:appinfo source="displayterm">
             <dtyp:displayterm value="Alteration">Alteration</dtyp:displayterm>
-            <dtyp:displayterm value="ExistingUnchanged">Existing</dtyp:displayterm>
+            <dtyp:displayterm value="ExistingUnchanged">Existing Unchanged</dtyp:displayterm>
             <dtyp:displayterm value="New">New</dtyp:displayterm>
             <dtyp:displayterm value="Removed">Removed</dtyp:displayterm>
             <dtyp:displayterm value="Replacement">Replacement</dtyp:displayterm>
@@ -11236,6 +11242,7 @@
 </dtyp:displayterm>
          </xsd:appinfo>
          <xsd:appinfo source="displayterm">
+            <dtyp:displayterm value="BradfordWhiteRE2H50S_Rheem2020Prem50">RE2H50S*-***** (50 gal)</dtyp:displayterm>
             <dtyp:displayterm value="DirectEnergyECEPH5015">ECEPH50 T2 RH375-15 (50 gal)</dtyp:displayterm>
             <dtyp:displayterm value="DirectEnergyECEPH5030">ECEPH50 T2 RH375-30 (50 gal)</dtyp:displayterm>
             <dtyp:displayterm value="DirectEnergyECEPH50SO">ECEPH50 T2 RH375-SO (50 gal)</dtyp:displayterm>
@@ -11262,6 +11269,7 @@
          </xsd:appinfo>
       </xsd:annotation>
       <xsd:restriction base="dtyp:EnumerationConstant">
+         <xsd:enumeration value="BradfordWhiteRE2H50S_Rheem2020Prem50"/>
          <xsd:enumeration value="DirectEnergyECEPH5015"/>
          <xsd:enumeration value="DirectEnergyECEPH5030"/>
          <xsd:enumeration value="DirectEnergyECEPH50SO"/>
@@ -11294,6 +11302,7 @@
 </dtyp:displayterm>
          </xsd:appinfo>
          <xsd:appinfo source="displayterm">
+            <dtyp:displayterm value="BradfordWhiteRE2H65T_Rheem2020Prem65">RE2H65T*-***** (65 gal)</dtyp:displayterm>
             <dtyp:displayterm value="DirectEnergyECEPH6515">ECEPH65 T2 RH375-15 (65 gal)</dtyp:displayterm>
             <dtyp:displayterm value="DirectEnergyECEPH6530">ECEPH65 T2 RH375-30 (65 gal)</dtyp:displayterm>
             <dtyp:displayterm value="DirectEnergyECEPH65SO">ECEPH65 T2 RH375-SO (65 gal)</dtyp:displayterm>
@@ -11320,6 +11329,7 @@
          </xsd:appinfo>
       </xsd:annotation>
       <xsd:restriction base="dtyp:EnumerationConstant">
+         <xsd:enumeration value="BradfordWhiteRE2H65T_Rheem2020Prem65"/>
          <xsd:enumeration value="DirectEnergyECEPH6515"/>
          <xsd:enumeration value="DirectEnergyECEPH6530"/>
          <xsd:enumeration value="DirectEnergyECEPH65SO"/>
@@ -11352,6 +11362,7 @@
 </dtyp:displayterm>
          </xsd:appinfo>
          <xsd:appinfo source="displayterm">
+            <dtyp:displayterm value="BradfordWhiteRE2H80T_Rheem2020Prem80">RE2H80T*-***** (80 gal)</dtyp:displayterm>
             <dtyp:displayterm value="DirectEnergyECEPH8015">ECEPH80 T2 RH375-15 (80 gal)</dtyp:displayterm>
             <dtyp:displayterm value="DirectEnergyECEPH8030">ECEPH80 T2 RH375-30 (80 gal)</dtyp:displayterm>
             <dtyp:displayterm value="DirectEnergyECEPH80SO">ECEPH80 T2 RH375-SO (80 gal)</dtyp:displayterm>
@@ -11378,6 +11389,7 @@
          </xsd:appinfo>
       </xsd:annotation>
       <xsd:restriction base="dtyp:EnumerationConstant">
+         <xsd:enumeration value="BradfordWhiteRE2H80T_Rheem2020Prem80"/>
          <xsd:enumeration value="DirectEnergyECEPH8015"/>
          <xsd:enumeration value="DirectEnergyECEPH8030"/>
          <xsd:enumeration value="DirectEnergyECEPH80SO"/>
@@ -12244,7 +12256,7 @@
          </xsd:appinfo>
          <xsd:appinfo source="displayterm">
             <dtyp:displayterm value="Alteration">Alteration</dtyp:displayterm>
-            <dtyp:displayterm value="ExistingUnchanged">Existing</dtyp:displayterm>
+            <dtyp:displayterm value="ExistingUnchanged">Existing Unchanged</dtyp:displayterm>
             <dtyp:displayterm value="New">New</dtyp:displayterm>
             <dtyp:displayterm value="NewOrAddition">New/ Addition</dtyp:displayterm>
          </xsd:appinfo>
