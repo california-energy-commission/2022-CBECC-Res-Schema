@@ -321,7 +321,7 @@
 						</xsd:element>
 						<xsd:element name="A23_OccupancyTypeU" type="com:OccupancyTypeU">
 							<xsd:annotation>
-								<xsd:documentation source="FieldText">Occupancy U:</xsd:documentation>
+								<xsd:documentation source="FieldText">No Dwelling Unit:</xsd:documentation>
 								<xsd:appinfo source="CBECCresXML">
 									<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 								</xsd:appinfo>
