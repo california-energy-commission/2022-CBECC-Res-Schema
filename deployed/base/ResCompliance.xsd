@@ -16587,6 +16587,7 @@ the inside surface of gable ends or other exterior vertical surfaces in attics t
             <dtyp:displayterm value="CoolRoofInstalled">Cool roof</dtyp:displayterm>
             <dtyp:displayterm value="DuctHighInsulation">Ducts with high level of insulation</dtyp:displayterm>
             <dtyp:displayterm value="DuctsInCrawlSpace">Ducts in crawl space</dtyp:displayterm>
+            <dtyp:displayterm value="DuctsLessThan25ft">New ductwork added is less than 25 ft. in length</dtyp:displayterm>
             <dtyp:displayterm value="DuctsLessThan40ft">New ductwork added is less than 40 ft. in length</dtyp:displayterm>
             <dtyp:displayterm value="DuctsNonstandardLocation">Non-standard duct location (any location other than attic)</dtyp:displayterm>
             <dtyp:displayterm value="ElectInstantaneousPOU">Electric water heater exception - Exception 2 to Section 150.1(c)8: Instantaneous electric water heater with POU distribution</dtyp:displayterm>
@@ -16666,6 +16667,7 @@ the inside surface of gable ends or other exterior vertical surfaces in attics t
          <xsd:enumeration value="CoolRoofInstalled"/>
          <xsd:enumeration value="DuctHighInsulation"/>
          <xsd:enumeration value="DuctsInCrawlSpace"/>
+         <xsd:enumeration value="DuctsLessThan25ft"/>
          <xsd:enumeration value="DuctsLessThan40ft"/>
          <xsd:enumeration value="DuctsNonstandardLocation"/>
          <xsd:enumeration value="ElectInstantaneousPOU"/>
