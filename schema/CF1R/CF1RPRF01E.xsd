@@ -9363,7 +9363,7 @@
 												</xsd:element>
 												<xsd:element name="Aa16_Installing25PlusLinearFeetDucts" type="comp:Installing25PlusLinearFeetDucts">
 													<xsd:annotation>
-														<xsd:documentation source="FieldText">New Ducts [d:gt/] 25 ft</xsd:documentation>
+														<xsd:documentation source="FieldText">New Ducts [d:gte/] 25 ft</xsd:documentation>
 														<xsd:appinfo source="CBECCresXML">
 															<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 														</xsd:appinfo>
