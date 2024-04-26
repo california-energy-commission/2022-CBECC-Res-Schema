@@ -19720,6 +19720,7 @@ Time Dependent Valuation (TDV) Gas Propane energy is calculated by multiplying t
             <dtyp:displayterm value="Option1GasPropane">1</dtyp:displayterm>
             <dtyp:displayterm value="Option2HP">2</dtyp:displayterm>
             <dtyp:displayterm value="Option3Tier3HP">3</dtyp:displayterm>
+            <dtyp:displayterm value="Option3Tier4HP">3 Tier4</dtyp:displayterm>
             <dtyp:displayterm value="Option4Electric">4</dtyp:displayterm>
          </xsd:appinfo>
       </xsd:annotation>
@@ -19727,6 +19728,7 @@ Time Dependent Valuation (TDV) Gas Propane energy is calculated by multiplying t
          <xsd:enumeration value="Option1GasPropane"/>
          <xsd:enumeration value="Option2HP"/>
          <xsd:enumeration value="Option3Tier3HP"/>
+         <xsd:enumeration value="Option3Tier4HP"/>
          <xsd:enumeration value="Option4Electric"/>
       </xsd:restriction>
    </xsd:simpleType>
@@ -19745,6 +19747,7 @@ Time Dependent Valuation (TDV) Gas Propane energy is calculated by multiplying t
             <dtyp:displayterm value="Option5A_Tier3WithExtraPV">5A</dtyp:displayterm>
             <dtyp:displayterm value="Option5B_Tier3CompactDist">5B</dtyp:displayterm>
             <dtyp:displayterm value="Option5Tier3">5</dtyp:displayterm>
+            <dtyp:displayterm value="Option5Tier4">5 Tier4</dtyp:displayterm>
             <dtyp:displayterm value="OptionA_CentralMF">A additional solar</dtyp:displayterm>
             <dtyp:displayterm value="OptionB_DrainHeatRecoveryCentralMF">B solar + drain water heat recovery</dtyp:displayterm>
             <dtyp:displayterm value="OptionC1HPwithSolarThermal">C1 Central heat pump water heater with solar thermal</dtyp:displayterm>
@@ -19765,6 +19768,7 @@ Time Dependent Valuation (TDV) Gas Propane energy is calculated by multiplying t
          <xsd:enumeration value="Option5A_Tier3WithExtraPV"/>
          <xsd:enumeration value="Option5B_Tier3CompactDist"/>
          <xsd:enumeration value="Option5Tier3"/>
+         <xsd:enumeration value="Option5Tier4"/>
          <xsd:enumeration value="OptionA_CentralMF"/>
          <xsd:enumeration value="OptionB_DrainHeatRecoveryCentralMF"/>
          <xsd:enumeration value="OptionC1HPwithSolarThermal"/>

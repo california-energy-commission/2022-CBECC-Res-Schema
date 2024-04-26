@@ -6681,6 +6681,14 @@
 															</xsd:appinfo>
 														</xsd:annotation>
 													</xsd:element>
+													<xsd:element name="Tchp02b_HeatPumpWaterHeatersTier4NEEA" type="hvac:HeatPumpWaterHeatersTier4NEEA">
+														<xsd:annotation>
+															<xsd:documentation source="FieldText">NOT REPORTED IN PDF</xsd:documentation>
+															<xsd:appinfo source="CBECCresXML">
+																<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+															</xsd:appinfo>
+														</xsd:annotation>
+													</xsd:element>
 													<xsd:element name="Tchp02b_HeatPumpWaterHeaterModelOther" type="hvac:HeatPumpWaterHeaterModelOther">
 														<xsd:annotation>
 															<xsd:documentation source="FieldText">NOT REPORTED IN PDF</xsd:documentation>
