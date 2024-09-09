@@ -10850,6 +10850,33 @@
 				</xsd:annotation>
 				<xsd:complexType>
 					<xsd:sequence>
+						<xsd:element name="OverhangVA_ColumnLabel02to06" minOccurs="0">
+							<xsd:annotation>
+								<xsd:documentation source="FieldText">Column Label 02 - 06</xsd:documentation>
+								<xsd:documentation source="AdditionalRequirements">Overhang</xsd:documentation>
+								<xsd:appinfo source="CBECCresXML">
+									<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+								</xsd:appinfo>
+							</xsd:annotation>
+						</xsd:element>
+						<xsd:element name="OverhangVA_ColumnLabel07to10" minOccurs="0">
+							<xsd:annotation>
+								<xsd:documentation source="FieldText">Column Label 07 - 10</xsd:documentation>
+								<xsd:documentation source="AdditionalRequirements">Left Fin</xsd:documentation>
+								<xsd:appinfo source="CBECCresXML">
+									<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+								</xsd:appinfo>
+							</xsd:annotation>
+						</xsd:element>
+						<xsd:element name="OverhangVA_ColumnLabel11to14" minOccurs="0">
+							<xsd:annotation>
+								<xsd:documentation source="FieldText">Column Label 11 - 14</xsd:documentation>
+								<xsd:documentation source="AdditionalRequirements">Right Fin</xsd:documentation>
+								<xsd:appinfo source="CBECCresXML">
+									<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+								</xsd:appinfo>
+							</xsd:annotation>
+						</xsd:element>
 						<xsd:element name="TableOverhangsExisting">
 							<xsd:annotation>
 								<xsd:documentation source="FieldText"/>
@@ -10865,14 +10892,6 @@
 												<xsd:element name="OverhangVA01_FenestrationVerticalName" type="env:FenestrationVerticalName">
 													<xsd:annotation>
 														<xsd:documentation source="FieldText">Window</xsd:documentation>
-														<xsd:appinfo source="CBECCresXML">
-															<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
-														</xsd:appinfo>
-													</xsd:annotation>
-												</xsd:element>
-												<xsd:element name="OverhangVA02to06Label" minOccurs="0">
-													<xsd:annotation>
-														<xsd:documentation source="FieldText">Overhang</xsd:documentation>
 														<xsd:appinfo source="CBECCresXML">
 															<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 														</xsd:appinfo>
@@ -10918,14 +10937,6 @@
 														</xsd:appinfo>
 													</xsd:annotation>
 												</xsd:element>
-												<xsd:element name="OverhangVA07to10Label" minOccurs="0">
-													<xsd:annotation>
-														<xsd:documentation source="FieldText">Left Fin</xsd:documentation>
-														<xsd:appinfo source="CBECCresXML">
-															<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
-														</xsd:appinfo>
-													</xsd:annotation>
-												</xsd:element>
 												<xsd:element name="OverhangVA07_FinDepth" type="env:FinDepth">
 													<xsd:annotation>
 														<xsd:documentation source="FieldText">Depth</xsd:documentation>
@@ -10953,14 +10964,6 @@
 												<xsd:element name="OverhangVA10_FinBottomUp" type="env:FinBottomUp">
 													<xsd:annotation>
 														<xsd:documentation source="FieldText">Bottom Up</xsd:documentation>
-														<xsd:appinfo source="CBECCresXML">
-															<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
-														</xsd:appinfo>
-													</xsd:annotation>
-												</xsd:element>
-												<xsd:element name="OverhangVA11to14Label" minOccurs="0">
-													<xsd:annotation>
-														<xsd:documentation source="FieldText">Right Fin</xsd:documentation>
 														<xsd:appinfo source="CBECCresXML">
 															<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 														</xsd:appinfo>
