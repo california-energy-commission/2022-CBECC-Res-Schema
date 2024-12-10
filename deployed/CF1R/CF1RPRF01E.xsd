@@ -2522,7 +2522,7 @@
                            <xsd:element name="EuiCol03Heading" minOccurs="0">
                               <xsd:annotation>
                                  <xsd:documentation source="FieldText">
-                                    <d:b>Compliance Margin  (kBtu/ft<d:sup>2</d:sup> - yr ) </d:b>
+                                    <d:b>Margin  (kBtu/ft<d:sup>2</d:sup> - yr ) </d:b>
                                  </xsd:documentation>
                                  <xsd:appinfo source="CBECCresXML">
                                     <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
@@ -2677,7 +2677,7 @@
                            <xsd:element name="EuiCol03Heading" minOccurs="0">
                               <xsd:annotation>
                                  <xsd:documentation source="FieldText">
-                                    <d:b>Compliance Margin  (kBtu/ft<d:sup>2</d:sup> - yr ) </d:b>
+                                    <d:b>Margin  (kBtu/ft<d:sup>2</d:sup> - yr ) </d:b>
                                  </xsd:documentation>
                                  <xsd:appinfo source="CBECCresXML">
                                     <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
