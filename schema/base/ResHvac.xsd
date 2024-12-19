@@ -26,54 +26,6 @@
       <xsd:restriction base="dtyp:IntegerNonnegative">
       </xsd:restriction>
    </xsd:simpleType>
-   <xsd:simpleType name="AeroTherm2023_50SimulationGroup">
-      <xsd:annotation>
-         <xsd:appinfo source="displaytermType">
-            <dtyp:displayterm>Simulated Model Group AeroTherm2023_50
-            </dtyp:displayterm>
-         </xsd:appinfo>
-         <xsd:appinfo source="displayterm">
-            <dtyp:displayterm value="BradfordWhiteRE2H50S10_1NCTT">RE2H50S10-1NCTT  (50 gal)</dtyp:displayterm>
-            <dtyp:displayterm value="BradfordWhiteRE2H50S10_1NCTT_CON">RE2H50S10-1NCTT-CON  (50 gal)</dtyp:displayterm>
-         </xsd:appinfo>
-      </xsd:annotation>
-      <xsd:restriction base="dtyp:EnumerationConstant">
-         <xsd:enumeration value="BradfordWhiteRE2H50S10_1NCTT"/>
-         <xsd:enumeration value="BradfordWhiteRE2H50S10_1NCTT_CON"/>
-      </xsd:restriction>
-   </xsd:simpleType>
-   <xsd:simpleType name="AeroTherm2023_65SimulationGroup">
-      <xsd:annotation>
-         <xsd:appinfo source="displaytermType">
-            <dtyp:displayterm>Simulated Model Group AeroTherm2023_65
-            </dtyp:displayterm>
-         </xsd:appinfo>
-         <xsd:appinfo source="displayterm">
-            <dtyp:displayterm value="BradfordWhiteRE2H65T10_1NCTT">RE2H65T10-1NCTT  (65 gal)</dtyp:displayterm>
-            <dtyp:displayterm value="BradfordWhiteRE2H65T10_1NCTT_CON">RE2H65T10-1NCTT-CON  (65 gal)</dtyp:displayterm>
-         </xsd:appinfo>
-      </xsd:annotation>
-      <xsd:restriction base="dtyp:EnumerationConstant">
-         <xsd:enumeration value="BradfordWhiteRE2H65T10_1NCTT"/>
-         <xsd:enumeration value="BradfordWhiteRE2H65T10_1NCTT_CON"/>
-      </xsd:restriction>
-   </xsd:simpleType>
-   <xsd:simpleType name="AeroTherm2023_80SimulationGroup">
-      <xsd:annotation>
-         <xsd:appinfo source="displaytermType">
-            <dtyp:displayterm>Simulated Model Group AeroTherm2023_80
-            </dtyp:displayterm>
-         </xsd:appinfo>
-         <xsd:appinfo source="displayterm">
-            <dtyp:displayterm value="BradfordWhiteRE2H80T10_1NCTT">RE2H80T10-1NCTT  (80 gal)</dtyp:displayterm>
-            <dtyp:displayterm value="BradfordWhiteRE2H80T10_1NCTT_CON">RE2H65T10-1NCTT-CON  (80 gal)</dtyp:displayterm>
-         </xsd:appinfo>
-      </xsd:annotation>
-      <xsd:restriction base="dtyp:EnumerationConstant">
-         <xsd:enumeration value="BradfordWhiteRE2H65T10_1NCTT"/>
-         <xsd:enumeration value="BradfordWhiteRE2H65T10_1NCTT_CON"/>
-      </xsd:restriction>
-   </xsd:simpleType>
    <xsd:simpleType name="AirFilterDeviceAirflowRate">
       <xsd:annotation>
          <xsd:documentation>  Units: ft3 per min</xsd:documentation>
@@ -1138,6 +1090,54 @@
          <xsd:documentation>  Units: gal per min</xsd:documentation>
       </xsd:annotation>
       <xsd:restriction base="dtyp:DecimalNonnegative">
+      </xsd:restriction>
+   </xsd:simpleType>
+   <xsd:simpleType name="BradfordWhiteAeroThermRE2H50SimulationGroup">
+      <xsd:annotation>
+         <xsd:appinfo source="displaytermType">
+            <dtyp:displayterm>Simulated Model Group BradfordWhiteAeroThermRE2H50
+            </dtyp:displayterm>
+         </xsd:appinfo>
+         <xsd:appinfo source="displayterm">
+            <dtyp:displayterm value="BradfordWhiteRE2H50S10_1NCTT">RE2H50S10-1NCTT  (50 gal)</dtyp:displayterm>
+            <dtyp:displayterm value="BradfordWhiteRE2H50S10_1NCTT_CON">RE2H50S10-1NCTT-CON  (50 gal)</dtyp:displayterm>
+         </xsd:appinfo>
+      </xsd:annotation>
+      <xsd:restriction base="dtyp:EnumerationConstant">
+         <xsd:enumeration value="BradfordWhiteRE2H50S10_1NCTT"/>
+         <xsd:enumeration value="BradfordWhiteRE2H50S10_1NCTT_CON"/>
+      </xsd:restriction>
+   </xsd:simpleType>
+   <xsd:simpleType name="BradfordWhiteAeroThermRE2H65SimulationGroup">
+      <xsd:annotation>
+         <xsd:appinfo source="displaytermType">
+            <dtyp:displayterm>Simulated Model Group BradfordWhiteAeroThermRE2H65
+            </dtyp:displayterm>
+         </xsd:appinfo>
+         <xsd:appinfo source="displayterm">
+            <dtyp:displayterm value="BradfordWhiteRE2H65T10_1NCTT">RE2H65T10-1NCTT  (65 gal)</dtyp:displayterm>
+            <dtyp:displayterm value="BradfordWhiteRE2H65T10_1NCTT_CON">RE2H65T10-1NCTT-CON  (65 gal)</dtyp:displayterm>
+         </xsd:appinfo>
+      </xsd:annotation>
+      <xsd:restriction base="dtyp:EnumerationConstant">
+         <xsd:enumeration value="BradfordWhiteRE2H65T10_1NCTT"/>
+         <xsd:enumeration value="BradfordWhiteRE2H65T10_1NCTT_CON"/>
+      </xsd:restriction>
+   </xsd:simpleType>
+   <xsd:simpleType name="BradfordWhiteAeroThermRE2H80SimulationGroup">
+      <xsd:annotation>
+         <xsd:appinfo source="displaytermType">
+            <dtyp:displayterm>Simulated Model Group AeroTherm2023_80
+            </dtyp:displayterm>
+         </xsd:appinfo>
+         <xsd:appinfo source="displayterm">
+            <dtyp:displayterm value="BradfordWhiteRE2H80T10_1NCTT">RE2H80T10-1NCTT  (80 gal)</dtyp:displayterm>
+            <dtyp:displayterm value="BradfordWhiteRE2H80T10_1NCTT_CON">RE2H65T10-1NCTT-CON  (80 gal)</dtyp:displayterm>
+         </xsd:appinfo>
+      </xsd:annotation>
+      <xsd:restriction base="dtyp:EnumerationConstant">
+         <xsd:enumeration value="BradfordWhiteRE2H65T10_1NCTT"/>
+         <xsd:enumeration value="BradfordWhiteRE2H65T10_1NCTT_CON"/>
       </xsd:restriction>
    </xsd:simpleType>
    <xsd:simpleType name="Brand">
@@ -7504,9 +7504,6 @@
 </dtyp:displayterm>
          </xsd:appinfo>
          <xsd:appinfo source="displayterm">
-            <dtyp:displayterm value="AeroTherm2023_50">AeroTherm2023 50 (50 gal)</dtyp:displayterm>
-            <dtyp:displayterm value="AeroTherm2023_65">AeroTherm2023 65 (65 gal)</dtyp:displayterm>
-            <dtyp:displayterm value="AeroTherm2023_80">AeroTherm2023 80 (80 gal)</dtyp:displayterm>
             <dtyp:displayterm value="AOSmithCAHP120">AOSmithCAHP 120 (120 gal)</dtyp:displayterm>
             <dtyp:displayterm value="AOSmithHPTS40">AO Smith HPTS 40</dtyp:displayterm>
             <dtyp:displayterm value="AOSmithHPTS50">AO Smith HPTS 50</dtyp:displayterm>
@@ -7520,6 +7517,9 @@
             <dtyp:displayterm value="AOSmithSHPT50">AO Smith SHPT 50</dtyp:displayterm>
             <dtyp:displayterm value="AOSmithSHPT80">AO Smith SHPT 80</dtyp:displayterm>
             <dtyp:displayterm value="AquaThermAire">AquaThermAire</dtyp:displayterm>
+            <dtyp:displayterm value="BradfordWhiteAeroThermRE2H50">Bradford White AeroTherm RE2H 50 (50 gal)</dtyp:displayterm>
+            <dtyp:displayterm value="BradfordWhiteAeroThermRE2H65">Bradford White AeroTherm RE2H 65 (65 gal)</dtyp:displayterm>
+            <dtyp:displayterm value="BradfordWhiteAeroThermRE2H80">Bradford White AeroTherm RE2H 80 (80 gal)</dtyp:displayterm>
             <dtyp:displayterm value="BWC202065">BWC 2020 65</dtyp:displayterm>
             <dtyp:displayterm value="ColmacCxA10_SP">Colmac Cx A10-SP</dtyp:displayterm>
             <dtyp:displayterm value="ColmacCxA15_SP">Colmac Cx A15-SP</dtyp:displayterm>
@@ -7589,9 +7589,6 @@
          </xsd:appinfo>
       </xsd:annotation>
       <xsd:restriction base="dtyp:EnumerationConstant">
-         <xsd:enumeration value="AeroTherm2023_50"/>
-         <xsd:enumeration value="AeroTherm2023_65"/>
-         <xsd:enumeration value="AeroTherm2023_80"/>
          <xsd:enumeration value="AOSmithCAHP120"/>
          <xsd:enumeration value="AOSmithHPTS40"/>
          <xsd:enumeration value="AOSmithHPTS50"/>
@@ -7605,6 +7602,9 @@
          <xsd:enumeration value="AOSmithSHPT50"/>
          <xsd:enumeration value="AOSmithSHPT80"/>
          <xsd:enumeration value="AquaThermAire"/>
+         <xsd:enumeration value="BradfordWhiteAeroThermRE2H50"/>
+         <xsd:enumeration value="BradfordWhiteAeroThermRE2H65"/>
+         <xsd:enumeration value="BradfordWhiteAeroThermRE2H80"/>
          <xsd:enumeration value="BWC202065"/>
          <xsd:enumeration value="ColmacCxA10_SP"/>
          <xsd:enumeration value="ColmacCxA15_SP"/>
@@ -12751,7 +12751,7 @@
 	 <xsd:documentation> Nov 2023 Removed incorrect duplicate RheemPROPH40T2RH310UM  
          </xsd:documentation>
          <xsd:appinfo source="displaytermType">
-            <dtyp:displayterm>Simulated Model Group Rheem HBDR-45-80
+            <dtyp:displayterm>Simulated Model Group Rheem 2020 Build 40
 </dtyp:displayterm>
          </xsd:appinfo>
          <xsd:appinfo source="displayterm">
@@ -12779,7 +12779,7 @@
 	 <xsd:documentation> Nov 2023 Removed incorrect duplicate RheemPROPH50T2RH310UM 
          </xsd:documentation>
          <xsd:appinfo source="displaytermType">
-            <dtyp:displayterm>Simulated Model Group Rheem HBDR-45-80
+            <dtyp:displayterm>Simulated Model Group Rheem 2020 Build 50
 </dtyp:displayterm>
          </xsd:appinfo>
          <xsd:appinfo source="displayterm">
@@ -12807,7 +12807,7 @@
 	 <xsd:documentation> Nov 2023 Removed incorrect duplicate RheemPROPH65T2RH310UM  
          </xsd:documentation>
          <xsd:appinfo source="displaytermType">
-            <dtyp:displayterm>Simulated Model Group Rheem HBDR-45-80
+            <dtyp:displayterm>Simulated Model Group Rheem 2020 Build 65
 </dtyp:displayterm>
          </xsd:appinfo>
          <xsd:appinfo source="displayterm">
@@ -12835,7 +12835,7 @@
 	 <xsd:documentation> Nov 2023 Removed incorrect duplicate RheemPROPH80T2RH310UM 
          </xsd:documentation>
          <xsd:appinfo source="displaytermType">
-            <dtyp:displayterm>Simulated Model Group Rheem HBDR-45-80
+            <dtyp:displayterm>Simulated Model Group Rheem 2020 Build 80
 </dtyp:displayterm>
          </xsd:appinfo>
          <xsd:appinfo source="displayterm">
@@ -12861,7 +12861,7 @@
    <xsd:simpleType name="Rheem2020Prem40SimulationGroup">
       <xsd:annotation>
          <xsd:appinfo source="displaytermType">
-            <dtyp:displayterm>Simulated Model Group Rheem HBDR-45-80
+            <dtyp:displayterm>Simulated Model Group Rheem 2020 Prem 40
 </dtyp:displayterm>
          </xsd:appinfo>
          <xsd:appinfo source="displayterm">
@@ -12967,7 +12967,7 @@
    <xsd:simpleType name="Rheem2020Prem50SimulationGroup">
       <xsd:annotation>
          <xsd:appinfo source="displaytermType">
-            <dtyp:displayterm>Simulated Model Group Rheem HBDR-45-80
+            <dtyp:displayterm>Simulated Model Group Rheem 2020 Prem 50
 </dtyp:displayterm>
          </xsd:appinfo>
          <xsd:appinfo source="displayterm">
@@ -13075,7 +13075,7 @@
    <xsd:simpleType name="Rheem2020Prem65SimulationGroup">
       <xsd:annotation>
          <xsd:appinfo source="displaytermType">
-            <dtyp:displayterm>Simulated Model Group Rheem HBDR-45-80
+            <dtyp:displayterm>Simulated Model Group Rheem 2020 Prem 65
 </dtyp:displayterm>
          </xsd:appinfo>
          <xsd:appinfo source="displayterm">
@@ -13183,7 +13183,7 @@
    <xsd:simpleType name="Rheem2020Prem80SimulationGroup">
       <xsd:annotation>
          <xsd:appinfo source="displaytermType">
-            <dtyp:displayterm>Simulated Model Group Rheem HBDR-45-80
+            <dtyp:displayterm>Simulated Model Group Rheem 2020 Prem 80
 </dtyp:displayterm>
          </xsd:appinfo>
          <xsd:appinfo source="displayterm">
