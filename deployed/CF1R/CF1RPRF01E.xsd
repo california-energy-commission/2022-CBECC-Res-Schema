@@ -6373,6 +6373,18 @@
                                           </xsd:annotation>
                                        </xsd:element>
                                     </xsd:choice>
+                                    <xsd:element name="Tneea09_ResidentialWaterHeaterDemRespCompat" type="hvac:ResidentialWaterHeaterDemRespCompat">
+                                       <xsd:annotation>
+                                          <xsd:documentation source="FieldText">NOT REPORTED IN PDF</xsd:documentation>
+                                          <xsd:documentation source="AdditionalRequirements">HP Water Heater DR compatible</xsd:documentation>
+                                       </xsd:annotation>
+                                    </xsd:element>
+                                    <xsd:element name="Tneea10_ResidentialWaterHeaterJA13UICompliance" type="hvac:ResidentialWaterHeaterJA13UICompliance">
+                                       <xsd:annotation>
+                                          <xsd:documentation source="FieldText">NOT REPORTED IN PDF</xsd:documentation>
+                                          <xsd:documentation source="AdditionalRequirements">Water Heater JA13 UI Compliance</xsd:documentation>
+                                       </xsd:annotation>
+                                    </xsd:element>
                                  </xsd:sequence>
                               </xsd:complexType>
                            </xsd:element>
