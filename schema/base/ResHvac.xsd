@@ -1136,8 +1136,8 @@
          </xsd:appinfo>
       </xsd:annotation>
       <xsd:restriction base="dtyp:EnumerationConstant">
-         <xsd:enumeration value="BradfordWhiteRE2H65T10_1NCTT"/>
-         <xsd:enumeration value="BradfordWhiteRE2H65T10_1NCTT_CON"/>
+         <xsd:enumeration value="BradfordWhiteRE2H80T10_1NCTT"/>
+         <xsd:enumeration value="BradfordWhiteRE2H80T10_1NCTT_CON"/>
       </xsd:restriction>
    </xsd:simpleType>
    <xsd:simpleType name="Brand">
