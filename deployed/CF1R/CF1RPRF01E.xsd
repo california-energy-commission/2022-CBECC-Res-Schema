@@ -1059,7 +1059,7 @@
                            <xsd:element name="EusCol05Heading" minOccurs="0">
                               <xsd:annotation>
                                  <xsd:documentation source="FieldText">
-                                    <d:b>Compliance Margin (EDR1)</d:b>
+                                    <d:b>Margin (EDR1)</d:b>
                                  </xsd:documentation>
                                  <xsd:appinfo source="CBECCresXML">
                                     <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
@@ -1069,7 +1069,7 @@
                            <xsd:element name="EusCol06Heading" minOccurs="0">
                               <xsd:annotation>
                                  <xsd:documentation source="FieldText">
-                                    <d:b>Compliance Margin (EDR2)</d:b>
+                                    <d:b>Margin (EDR2)</d:b>
                                  </xsd:documentation>
                                  <xsd:appinfo source="CBECCresXML">
                                     <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
@@ -2003,7 +2003,7 @@
                            <xsd:element name="EusCol05Heading" minOccurs="0">
                               <xsd:annotation>
                                  <xsd:documentation source="FieldText">
-                                    <d:b>Compliance Margin (EDR1)</d:b>
+                                    <d:b>Margin (EDR1)</d:b>
                                  </xsd:documentation>
                                  <xsd:appinfo source="CBECCresXML">
                                     <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
@@ -2013,7 +2013,7 @@
                            <xsd:element name="EusCol06Heading" minOccurs="0">
                               <xsd:annotation>
                                  <xsd:documentation source="FieldText">
-                                    <d:b>Compliance Margin (EDR2)</d:b>
+                                    <d:b>Margin (EDR2)</d:b>
                                  </xsd:documentation>
                                  <xsd:appinfo source="CBECCresXML">
                                     <dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
