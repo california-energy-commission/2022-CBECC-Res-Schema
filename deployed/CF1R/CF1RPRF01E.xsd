@@ -7549,7 +7549,7 @@
                                     </xsd:choice>
                                     <xsd:element name="V07_ThermostatType" type="hvac:ThermostatType">
                                        <xsd:annotation>
-                                          <xsd:documentation source="FieldText">Required Thermostat Type</xsd:documentation>
+                                          <xsd:documentation source="FieldText">NOT REPORTED IN PDF</xsd:documentation>
                                           <xsd:documentation source="CalculationsAndRules">If result from CBECC-res is not equal to SetBackThermostat, it should be overwritten under these circumstances:  If result == NonSetbackThermostat, And V02_ResidentialSpaceConditioningSystemType == HeatPumpHeatingCooling
 Then If W02_ResidentialHeatingSystemType !=RoomHP for W01_ResidentialHeatingSystemName ==V03_ResidentialHeatingSystemName Or If X02_ResidentialCoolingSystemType !=RoomHP for X01_ResidentialCoolingSystemName == V04_ResidentialCoolingSystemName, then override result and assign the value SetBackThermostat</xsd:documentation>
                                           <xsd:appinfo source="CBECCresXML">
