@@ -7840,7 +7840,7 @@
 													<xsd:element name="X08_CoolingSystemHERS_VerificationName" type="comp:CoolingSystemHERS_VerificationName">
 														<xsd:annotation>
 															<xsd:documentation source="FieldText">HERS Verification</xsd:documentation>
-															<xsd:documentation source="CalculationsAndRules">If  cooling unit  does not require HERS verfication result = NotApplicable stored in NotApplicableMessage display term N/A Else result is stored in CoolingSystemHERS_VerificationName</xsd:documentation>
+															<xsd:documentation source="CalculationsAndRules">If  cooling unit  does not require HERS verification result = NotApplicable stored in NotApplicableMessage display term N/A Else result is stored in CoolingSystemHERS_VerificationName</xsd:documentation>
 															<xsd:appinfo source="CBECCresXML">
 																<dtyp:CBECCresXMLterm>HVACCool:HERSCheck</dtyp:CBECCresXMLterm>
 															</xsd:appinfo>
@@ -7849,7 +7849,7 @@
 													<xsd:element name="X08_NotApplicableMessage" type="comp:NotApplicableMessage">
 														<xsd:annotation>
 															<xsd:documentation source="FieldText">HERS Verification</xsd:documentation>
-															<xsd:documentation source="CalculationsAndRules">If  cooling unit  does not require HERS verfication result = NotApplicable stored in NotApplicableMessage display term N/A Else result is stored in CoolingSystemHERS_VerificationName</xsd:documentation>
+															<xsd:documentation source="CalculationsAndRules">If  cooling unit  does not require HERS verification result = NotApplicable stored in NotApplicableMessage display term N/A Else result is stored in CoolingSystemHERS_VerificationName</xsd:documentation>
 															<xsd:appinfo source="CBECCresXML">
 																<dtyp:CBECCresXMLterm>HVACCool:HERSCheck</dtyp:CBECCresXMLterm>
 															</xsd:appinfo>
@@ -8175,7 +8175,7 @@
 													<xsd:element name="Y11_HeatPumpSystemHERS_VerificationName" type="comp:HeatPumpSystemHERS_VerificationName">
 														<xsd:annotation>
 															<xsd:documentation source="FieldText">HERS Verification</xsd:documentation>
-															<xsd:documentation source="CalculationsAndRules">If  heat pump  does not require HERS verfication result = NotApplicable stored in NotApplicableMessage display term N/A Else result is stored in CoolingSystemHERS_VerificationName</xsd:documentation>
+															<xsd:documentation source="CalculationsAndRules">If  heat pump  does not require HERS verification result = NotApplicable stored in NotApplicableMessage display term N/A Else result is stored in CoolingSystemHERS_VerificationName</xsd:documentation>
 															<xsd:appinfo source="CBECCresXML">
 																<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 															</xsd:appinfo>
@@ -8184,7 +8184,7 @@
 													<xsd:element name="Y11_NotApplicableMessage" type="comp:NotApplicableMessage">
 														<xsd:annotation>
 															<xsd:documentation source="FieldText">HERS Verification</xsd:documentation>
-															<xsd:documentation source="CalculationsAndRules">If  heat pump  does not require HERS verfication result = NotApplicable stored in NotApplicableMessage display term N/A Else result is stored in CoolingSystemHERS_VerificationName</xsd:documentation>
+															<xsd:documentation source="CalculationsAndRules">If  heat pump  does not require HERS verification result = NotApplicable stored in NotApplicableMessage display term N/A Else result is stored in CoolingSystemHERS_VerificationName</xsd:documentation>
 															<xsd:appinfo source="CBECCresXML">
 																<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 															</xsd:appinfo>
@@ -8750,7 +8750,7 @@
 													<xsd:element name="Ydfhp12_HeatPumpSystemHERS_VerificationName" type="comp:HeatPumpSystemHERS_VerificationName">
 														<xsd:annotation>
 															<xsd:documentation source="FieldText">HERS Verification</xsd:documentation>
-															<xsd:documentation source="CalculationsAndRules">If  heat pump  does not require HERS verfication result = NotApplicable stored in NotApplicableMessage display term N/A Else result is stored in CoolingSystemHERS_VerificationName</xsd:documentation>
+															<xsd:documentation source="CalculationsAndRules">If  heat pump  does not require HERS verification result = NotApplicable stored in NotApplicableMessage display term N/A Else result is stored in CoolingSystemHERS_VerificationName</xsd:documentation>
 															<xsd:appinfo source="CBECCresXML">
 																<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 															</xsd:appinfo>
@@ -8759,7 +8759,7 @@
 													<xsd:element name="Ydfhp12_NotApplicableMessage" type="comp:NotApplicableMessage">
 														<xsd:annotation>
 															<xsd:documentation source="FieldText">HERS Verification</xsd:documentation>
-															<xsd:documentation source="CalculationsAndRules">If  heat pump  does not require HERS verfication result = NotApplicable stored in NotApplicableMessage display term N/A Else result is stored in CoolingSystemHERS_VerificationName</xsd:documentation>
+															<xsd:documentation source="CalculationsAndRules">If  heat pump  does not require HERS verification result = NotApplicable stored in NotApplicableMessage display term N/A Else result is stored in CoolingSystemHERS_VerificationName</xsd:documentation>
 															<xsd:appinfo source="CBECCresXML">
 																<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 															</xsd:appinfo>
@@ -9732,7 +9732,7 @@
 													<xsd:element name="Cc04_FanSystemHERS_VerificationName" type="comp:FanSystemHERS_VerificationName">
 														<xsd:annotation>
 															<xsd:documentation source="FieldText">HERS Verification</xsd:documentation>
-															<xsd:documentation source="CalculationsAndRules">If  this fan system does not require HERS verfication result = NotApplicable stored in NotApplicableMessage display term N/A Else result is stored in FanSystemHERS_VerificationName</xsd:documentation>
+															<xsd:documentation source="CalculationsAndRules">If  this fan system does not require HERS verification result = NotApplicable stored in NotApplicableMessage display term N/A Else result is stored in FanSystemHERS_VerificationName</xsd:documentation>
 															<xsd:appinfo source="CBECCresXML">
 																<dtyp:CBECCresXMLterm>HVACFan:HERSCheck</dtyp:CBECCresXMLterm>
 															</xsd:appinfo>
@@ -9741,7 +9741,7 @@
 													<xsd:element name="Cc04_NotApplicableMessage" type="comp:NotApplicableMessage">
 														<xsd:annotation>
 															<xsd:documentation source="FieldText">HERS Verification</xsd:documentation>
-															<xsd:documentation source="CalculationsAndRules">If  this fan system does not require HERS verfication result = NotApplicable stored in NotApplicableMessage display term N/A Else result is stored in FanSystemHERS_VerificationName</xsd:documentation>
+															<xsd:documentation source="CalculationsAndRules">If  this fan system does not require HERS verification result = NotApplicable stored in NotApplicableMessage display term N/A Else result is stored in FanSystemHERS_VerificationName</xsd:documentation>
 															<xsd:appinfo source="CBECCresXML">
 																<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
 															</xsd:appinfo>
