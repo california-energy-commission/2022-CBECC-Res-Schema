@@ -806,15 +806,28 @@
 											</xsd:appinfo>
 										</xsd:annotation>
 									</xsd:element>
-									<xsd:element name="EdrFootnote2" minOccurs="0">
-										<xsd:annotation>
-											<xsd:documentation source="FieldText"/>
-											<xsd:documentation source="AdditionalRequirements">[d:sup]2[/d:sup]Total EDR includes efficiency and demand response measures such as photovoltaic (PV) system and batteries</xsd:documentation>
-											<xsd:appinfo source="CBECCresXML">
-												<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
-											</xsd:appinfo>
-										</xsd:annotation>
-									</xsd:element>
+									<xsd:choice>
+										<xsd:element name="EdrFootnote2a" minOccurs="0">
+											<xsd:annotation>
+												<xsd:documentation source="FieldText"/>
+												<xsd:documentation source="CalculationsAndRules">If all instances of E01_SpecialFeatureCategory != ExecOrderN29_25, display this version of footnote 2 </xsd:documentation>
+												<xsd:documentation source="AdditionalRequirements">[d:sup]2[/d:sup]Total EDR includes efficiency and demand response measures such as photovoltaic (PV) system and batteries</xsd:documentation>
+												<xsd:appinfo source="CBECCresXML">
+													<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+												</xsd:appinfo>
+											</xsd:annotation>
+										</xsd:element>
+										<xsd:element name="EdrFootnote2b" minOccurs="0">
+											<xsd:annotation>
+												<xsd:documentation source="FieldText"/>
+												<xsd:documentation source="CalculationsAndRules">If at least one instance of E01_SpecialFeatureCategory == ExecOrderN29_25, display this version of footnote 2 </xsd:documentation>
+												<xsd:documentation source="AdditionalRequirements">[d:sup]2[/d:sup]Total EDR includes efficiency and no demand response measures such as photovoltaic (PV) system and batteries</xsd:documentation>
+												<xsd:appinfo source="CBECCresXML">
+													<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+												</xsd:appinfo>
+											</xsd:annotation>
+										</xsd:element>
+									</xsd:choice>
 									<xsd:element name="EdrFootnote3" minOccurs="0">
 										<xsd:annotation>
 											<xsd:documentation source="FieldText"/>
@@ -991,15 +1004,28 @@
 											</xsd:appinfo>
 										</xsd:annotation>
 									</xsd:element>
-									<xsd:element name="EdrFootnote2" minOccurs="0">
-										<xsd:annotation>
-											<xsd:documentation source="FieldText"/>
-											<xsd:documentation source="AdditionalRequirements">[d:sup]2[/d:sup]Total EDR includes efficiency and demand response measures such as photovoltaic (PV) system and batteries</xsd:documentation>
-											<xsd:appinfo source="CBECCresXML">
-												<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
-											</xsd:appinfo>
-										</xsd:annotation>
-									</xsd:element>
+									<xsd:choice>
+										<xsd:element name="EdrFootnote2a" minOccurs="0">
+											<xsd:annotation>
+												<xsd:documentation source="FieldText"/>
+												<xsd:documentation source="CalculationsAndRules">If all instances of E01_SpecialFeatureCategory != ExecOrderN29_25, display this version of footnote 2 </xsd:documentation>
+												<xsd:documentation source="AdditionalRequirements">[d:sup]2[/d:sup]Total EDR includes efficiency and demand response measures such as photovoltaic (PV) system and batteries</xsd:documentation>
+												<xsd:appinfo source="CBECCresXML">
+													<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+												</xsd:appinfo>
+											</xsd:annotation>
+										</xsd:element>
+										<xsd:element name="EdrFootnote2b" minOccurs="0">
+											<xsd:annotation>
+												<xsd:documentation source="FieldText"/>
+												<xsd:documentation source="CalculationsAndRules">If at least one instance of E01_SpecialFeatureCategory == ExecOrderN29_25, display this version of footnote 2 </xsd:documentation>
+												<xsd:documentation source="AdditionalRequirements">[d:sup]2[/d:sup]Total EDR includes efficiency and no demand response measures such as photovoltaic (PV) system and batteries</xsd:documentation>
+												<xsd:appinfo source="CBECCresXML">
+													<dtyp:CBECCresXMLterm>:</dtyp:CBECCresXMLterm>
+												</xsd:appinfo>
+											</xsd:annotation>
+										</xsd:element>
+									</xsd:choice>
 									<xsd:element name="EdrFootnote3" minOccurs="0">
 										<xsd:annotation>
 											<xsd:documentation source="FieldText"/>
